@@ -6,4 +6,4 @@ CSS
 Figma
 WebStorm
 Photoshop
-# standard-bank
+# Caso de Estudo (Desenvolvimento)
