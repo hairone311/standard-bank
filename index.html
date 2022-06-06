@@ -12,29 +12,39 @@
 <body>
 
 <section>
-    <header class="main_header">
-        <div class="main_header_content">
-            <!-- Logo -->
+    <header class="main-header">
+        <div class="main-header-content">
             <a>
                 <img class="logo" src="assets/images/logo.png" alt="Standard Bank">
             </a>
 
-            <!-- Menu -->
-            <nav class="main_header_content_menu">
-                <ul>
+            <nav class="main-header-content-menu">
+                <ul class="left">
                     <li><a>Sobre Nós</a></li>
                     <li><a>Productos</a></li>
                     <li><a>Soluções Digitais</a></li>
                     <li><a>Contacte-nos</a></li>
+                </ul>
+                <ul class="right">
+                    <li><a>Internet Banking</a></li>
+                </ul>
+            </nav>
 
+            <nav class="main-header-content-menu-mobile">
+                <ul>
+                    <li>
+                        <span class="main-header-content-menu-mobile-obj icon-menu icon-notext"></span>
+                        <ul class="main-header-content-menu-mobile-sub ds-none">
+                            <li><a>Sobre Nós</a></li>
+                            <li><a>Productos</a></li>
+                            <li><a>Soluções Digitais</a></li>
+                            <li><a>Contacte-nos</a></li>
+                            <li><a class="icon-user">Internet Banking</a></li>
+                        </ul>
+                    </li>
                 </ul>
 
             </nav>
-
-            <!-- Internet Banking Button -->
-            <ul class="internet-banking-btn">
-                <li><a>Internet Banking</a></li>
-            </ul>
         </div>
     </header>
 </section>
@@ -233,11 +243,14 @@
 </section>
 
 <!-- Rights -->
-<footer class="main_footer_rights">
-    <div class="main_footer_rights_content">
+<footer class="main-footer-rights">
+    <div class="main-footer-rights-content">
         <a type="">2022 &copy Standard Bank S.A.</a>
     </div>
 </footer>
+
+<script src="assets/js/jquery-3.6.0.min.js" type="text/javaScript"></script>
+<script src="assets/js/main.js" type="text/javaScript"></script>
 
 </body>
 </html>

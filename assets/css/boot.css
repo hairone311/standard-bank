@@ -11,6 +11,10 @@
     list-style: none;
 }
 
+.ds-none {
+    display: none !important;
+}
+
 a {
     font-size: 0.875em;
     font-weight: 600;

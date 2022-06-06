@@ -10,7 +10,7 @@
 
 ## Demostração
 
-Aqui está uma demonstração ao vivo de trabalho:  https://hairone311.github.io/standard-bank/
+Aqui está uma demonstração ao vivo do projecto:  https://hairone311.github.io/standard-bank/
 
 ### Página Inicial
 
