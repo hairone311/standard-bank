@@ -48,3 +48,35 @@ h4 {
     border-color: #008DEB;
     background-color: #008DEB;
 }
+
+/* Responsive */
+
+/* 1024px */
+@media (max-width: 64em) {
+    h1 {
+        font-size: 1.375em;
+    }
+
+    a {
+        font-size: 0.9em;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    p {
+        font-size: 1.1em;
+    }
+
+
+    h2 {
+        font-size: 1.275em;
+    }
+
+    h3 {
+        font-size: 1.225em;
+    }
+
+    h4 {
+        font-size: 1.2em;
+    }
+}

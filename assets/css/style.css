@@ -143,13 +143,12 @@
     opacity: 1;
 }
 
-.services article img {
+.services article a img {
     max-width: 240px;
     padding-bottom: 20px;
 }
 
-/* Products */
-
+/* Product */
 .product-background {
     background-color: #FCFCFC;
 }
@@ -191,6 +190,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-position: center;
 }
 
 .data-update {
@@ -210,11 +210,11 @@
 
 .data-update p {
     font-size: 1.375em;
-    margin: 20px 0;
+    margin: 20px 0 30px;
 }
 
 
-/* Rodapé */
+/* Footer */
 
 .footer {
     background-color: #FCFCFC;
@@ -249,7 +249,7 @@
     max-width: 150px;
 }
 
-/* Footer */
+/* Footer Rights */
 .main_footer_rights {
     width: 100%;
     text-align: center;
@@ -268,4 +268,104 @@
 
 .main_footer_rights_content a {
     font-weight: 300;
+}
+
+/* Responsive */
+
+/* 1024px */
+@media (max-width: 65em) {
+    /* Banner */
+    .banner {
+        height: 650px;
+    }
+
+    .banner-content header {
+        flex-basis: 500px;
+    }
+
+    .banner-content h1 {
+        font-size: 2.25em;
+    }
+
+    /* Products */
+    .products article {
+        flex-basis: calc(25% - 20px);
+    }
+
+    .products article:hover {
+        opacity: 1;
+    }
+
+    .products article a img {
+        max-width: 100%;
+    }
+
+    /* Product */
+    .product {
+        padding: 40px 0;
+    }
+
+    .product-content {
+        flex-basis: 50%;
+    }
+
+    .product-content h1 {
+        font-size: 2em;
+    }
+
+    .product-content p {
+        font-size: 1.75em;
+        margin-bottom: 10px;
+    }
+
+    /* Data Update */
+    .data-update h1, .data-update p {
+        color: #FCFCFC;
+    }
+
+    .data-update header h1 {
+        font-size: 1.65em;
+    }
+
+    .data-update p {
+        font-size: 1.1em;
+    }
+
+    /* Footer */
+    .footer .footer-content article header h2 {
+        font-size: 0.9em;
+    }
+
+    .footer .footer-content article ul li {
+        padding: 5px 0;
+    }
+
+    .footer .footer-content article ul li a {
+        font-size: 0.85em;
+    }
+
+    .footer .footer-content .footer-content-netplusapp ul li a img {
+        max-width: 100px;
+    }
+
+    /* Footer Rights */
+    .main_footer_rights {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        height: 40px;
+        font-size: 0.9em;
+        font-weight: 300;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main_footer_rights .main_footer_rights_content {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
+    .main_footer_rights_content a {
+        font-weight: 300;
+    }
 }
