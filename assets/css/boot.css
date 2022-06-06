@@ -51,55 +51,55 @@ h4 {
 
 /* Responsive */
 
-/*!* 1024px *!*/
-/*@media (max-width: 64em) {*/
-/*    h1 {*/
-/*        font-size: 1.375em;*/
-/*    }*/
+/* 1024px */
+@media (max-width: 64em) {
+    h1 {
+        font-size: 1.375em;
+    }
 
-/*    a {*/
-/*        font-size: 0.9em;*/
-/*        font-weight: 600;*/
-/*        cursor: pointer;*/
-/*    }*/
+    a {
+        font-size: 0.9em;
+        font-weight: 600;
+        cursor: pointer;
+    }
 
-/*    p {*/
-/*        font-size: 1.1em;*/
-/*    }*/
+    p {
+        font-size: 1.1em;
+    }
 
 
-/*    h2 {*/
-/*        font-size: 1.275em;*/
-/*    }*/
+    h2 {
+        font-size: 1.275em;
+    }
 
-/*    h3 {*/
-/*        font-size: 1.225em;*/
-/*    }*/
+    h3 {
+        font-size: 1.225em;
+    }
 
-/*    h4 {*/
-/*        font-size: 1.2em;*/
-/*    }*/
-/*}*/
+    h4 {
+        font-size: 1.2em;
+    }
+}
 
-/*!* 980px *!*/
-/*@media (max-width: 62em) {*/
-/*    h1 {*/
-/*        font-size: 1.2em;*/
-/*    }*/
+/* 980px */
+@media (max-width: 62em) {
+    h1 {
+        font-size: 1.2em;
+    }
 
-/*    p {*/
-/*        font-size: 1em;*/
-/*    }*/
+    p {
+        font-size: 1em;
+    }
 
-/*    h2 {*/
-/*        font-size: 1.125em;*/
-/*    }*/
+    h2 {
+        font-size: 1.125em;
+    }
 
-/*    h3 {*/
-/*        font-size: 1.025em;*/
-/*    }*/
+    h3 {
+        font-size: 1.025em;
+    }
 
-/*    h4 {*/
-/*        font-size: 1em;*/
-/*    }*/
-/*}*/
+    h4 {
+        font-size: 1em;
+    }
+}
