@@ -22,7 +22,7 @@ Aqui está uma demonstração ao vivo do projecto:  https://hairone311.github.io
 
 [//]: # ()
 
-[//]: # (![]&#40;/screenshots/mobile-preview.png&#41;)
+![](/screenshots/mobile-preview.png)
 
 ### Tecnologias Usadas:
 
