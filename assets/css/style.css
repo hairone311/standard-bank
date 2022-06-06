@@ -162,7 +162,7 @@
 }
 
 .product-content {
-    flex-basis: 58%;
+    flex-basis: 55%;
     padding: 0 20px;
 }
 
@@ -176,7 +176,7 @@
     margin-bottom: 10px;
 }
 
-.product img {
+.product-background .product img {
     flex-basis: 40%;
     width: 100%;
 }
@@ -239,6 +239,11 @@
 
 .footer .footer-content article ul li a {
     font-size: 1em;
+    font-weight: 400;
+}
+
+.footer .footer-content article ul li a:hover {
+    color: #008DEB;
 }
 
 .footer .footer-content .footer-content-netplusapp ul li a {
@@ -289,7 +294,7 @@
 
     /* Products */
     .products article {
-        flex-basis: calc(25% - 20px);
+        flex-basis: calc(25% - 10px);
     }
 
     .products article:hover {
@@ -303,10 +308,6 @@
     /* Product */
     .product {
         padding: 40px 0;
-    }
-
-    .product-content {
-        flex-basis: 50%;
     }
 
     .product-content h1 {
@@ -368,4 +369,159 @@
     .main_footer_rights_content a {
         font-weight: 300;
     }
+}
+
+/* 1140px */
+@media (max-width: 72em) {
+    .product-content {
+        flex-basis: 45%;
+    }
+
+    .product-content h1 {
+        font-size: 1.8em;
+    }
+
+    .product-content p {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .product-background .product img {
+        width: 50%;
+    }
+}
+
+
+/* 980px */
+@media (max-width: 62em) {
+    /* Menu */
+    .main_header_content_menu, .internet-banking-btn {
+        display: none !important;
+    }
+
+    /* Banner */
+    .banner {
+        height: 600px;
+    }
+
+    .banner-content header {
+        flex-basis: 50%;
+    }
+
+    /* Data Update */
+    .data-update h1, .data-update p {
+        color: #FCFCFC;
+    }
+
+    .data-update header h1 {
+        font-size: 1.65em;
+    }
+
+    .data-update p {
+        font-size: 1.1em;
+    }
+
+    /* Footer */
+    .footer .footer-content article header h2 {
+        font-size: 0.9em;
+    }
+
+    .footer .footer-content article ul li {
+        padding: 5px 0;
+    }
+
+    .footer .footer-content article ul li a {
+        font-size: 0.85em;
+    }
+
+    .footer .footer-content .footer-content-netplusapp ul li a img {
+        max-width: 100px;
+    }
+
+    /* Footer Rights */
+    .main_footer_rights {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        height: 40px;
+        font-size: 0.9em;
+        font-weight: 300;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main_footer_rights .main_footer_rights_content {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
+
+    .main_footer_rights_content a {
+        font-weight: 300;
+    }
+}
+
+/* 740px */
+@media (max-width: 47em) {
+    /* Banner */
+    .banner {
+        height: 500px;
+    }
+
+    .banner-content header {
+        flex-basis: 100%;
+    }
+
+    /* Products */
+    .products article {
+        flex-basis: calc(50% - 10px);
+        margin: 10px 0;
+    }
+
+    .products article a img {
+        width: 100%;
+    }
+
+    /* Product */
+    .product {
+        padding: 40px 0;
+    }
+
+    .product-content {
+        flex-basis: 100%;
+    }
+
+    .product-background .product img {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    /* Footer */
+    .footer .footer-content article header h2 {
+        font-size: 0.8em;
+    }
+
+    .footer .footer-content article ul li a {
+        font-size: 0.75em;
+        font-weight: 400;
+    }
+
+    /* Footer Rights */
+    .main_footer_rights_content a {
+        font-size: 0.7em;
+    }
+}
+
+/* 530px */
+@media (max-width: 34em) {
+    .footer .footer-content {
+        justify-content: flex-start;
+    }
+
+    .footer .footer-content article {
+        flex-basis: 33%;
+    }
+}
+
+/* 485px */
+@media (max-width: 31em) {
 }
