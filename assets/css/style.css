@@ -277,8 +277,28 @@
 
 /* Responsive */
 
+/* 1140px */
+@media screen and (max-width: 1140px) {
+    .product-content {
+        flex-basis: 45%;
+    }
+
+    .product-content h1 {
+        font-size: 1.8em;
+    }
+
+    .product-content p {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .product-background .product img {
+        width: 50%;
+    }
+}
+
 /* 1024px */
-@media (max-width: 65em) {
+@media screen and (max-width: 1024px) {
     /* Banner */
     .banner {
         height: 650px;
@@ -371,29 +391,8 @@
     }
 }
 
-/* 1140px */
-@media (max-width: 72em) {
-    .product-content {
-        flex-basis: 45%;
-    }
-
-    .product-content h1 {
-        font-size: 1.8em;
-    }
-
-    .product-content p {
-        font-size: 1.5em;
-        margin-bottom: 10px;
-    }
-
-    .product-background .product img {
-        width: 50%;
-    }
-}
-
-
 /* 980px */
-@media (max-width: 62em) {
+@media screen and (max-width: 980px) {
     /* Menu */
     .main_header_content_menu, .internet-banking-btn {
         display: none !important;
@@ -461,7 +460,7 @@
 }
 
 /* 740px */
-@media (max-width: 47em) {
+@media screen and (max-width: 740px) {
     /* Banner */
     .banner {
         height: 500px;
@@ -473,12 +472,13 @@
 
     /* Products */
     .products article {
-        flex-basis: calc(50% - 10px);
+        flex-basis: 100%;
         margin: 10px 0;
     }
 
     .products article a img {
-        width: 100%;
+        width: calc(100% - 20px);
+        margin: 0 auto;
     }
 
     /* Product */
@@ -511,8 +511,12 @@
     }
 }
 
-/* 530px */
-@media (max-width: 34em) {
+/* 580px */
+@media screen and (max-width: 580px) {
+    .banner-content header {
+        flex-basis: calc(100% - 20px);
+    }
+
     .footer .footer-content {
         justify-content: flex-start;
     }
@@ -522,6 +526,6 @@
     }
 }
 
-/* 485px */
-@media (max-width: 31em) {
-}
+/*!* 485px *!*/
+/*@media (max-width: 31em) {*/
+/*}*/
