@@ -1,9 +1,31 @@
-Página estática desenvolvida utilizando HTML5 e CSS3 como resposta ao desafio (Estudo de Caso) do StandardBank.
+# StandardBank WebSite ReDesign
 
-Tecnologias utilizadas:
-HTML
-CSS
-Figma
-WebStorm
-Photoshop
-# Caso de Estudo (Desenvolvimento)
+<table>
+<tr>
+<td>
+  Página Web simples utilizando HTML, CSS e JQuery desenvolvida como proposta de resolução do estudo de caso do StandardBank.
+</td>
+</tr>
+</table>
+
+## Demostração
+
+Aqui está uma demonstração ao vivo de trabalho:  https://hairone311.github.io/standard-bank/
+
+### Página Inicial
+
+#### Desktop
+
+![](/screenshots/desktop-preview.png)
+
+[//]: # (#### Mobile)
+
+[//]: # ()
+
+[//]: # (![]&#40;/screenshots/mobile-preview.png&#41;)
+
+### Tecnologias Usadas:
+
+- **HTML**
+- **CSS**
+- **JQuery**
